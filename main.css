@@ -1,12 +1,12 @@
 html { 
-    height: 100vh;
+    height: 100%;
 
  }
 
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #111111;
     color: #F6F8FF;
@@ -26,7 +26,7 @@ body {
 
 .page1 {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .navbar {
