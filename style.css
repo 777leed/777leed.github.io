@@ -1,0 +1,267 @@
+html {
+    font-size: 62.5%;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    background: #393646;
+    background-image: url(/assets/noise2.png);
+    /* background-blend-mode: overlay; */
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+
+}
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+header img {
+    width: 2em;
+    height: 2em;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.logo span {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 2rem;
+
+}
+header nav ul li a span {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+nav {
+    margin: 0;
+    z-index: 999;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 4em;
+    
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFF;
+    
+}
+
+header nav ul li a {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+
+}
+
+
+.hero {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-top: 10em;
+
+}
+
+.left-col {
+    max-width: 69em;
+}
+
+.right-col {
+    position: absolute;
+    right: -10em;
+    top: -16em;
+
+}
+.right-col img {
+    mix-blend-mode: luminosity;  
+    max-width: 638px;
+    max-height: 851px;
+    opacity: 0.8;
+
+}
+
+
+.left-col H1 {
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.left-col p {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hero .cta {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.hero .cta .primary-cta {
+    background-color: #F4EEE0;
+    border-radius: 5.1em;
+    color: #1E1E1E;
+    display: flex;
+    padding: 0.8em 3.2em;
+    justify-content: center;
+    align-items: center;
+}
+.hero .cta .primary-cta span {
+    font-family: Nunito Sans;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.hero .cta .secondary-cta span {
+    font-family: Nunito Sans;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.hero .cta .secondary-cta {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+
+/* second section */
+
+.projects-section {
+    margin-top: 20%;
+}
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8em;
+}
+.section-title span.title{
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 2.9rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: .12em solid white;
+}
+
+.section-title .see-all span{
+    color: #FFF;
+    font-family: Nunito Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+img.svg20 {
+    width: 2em;
+    height: 2em;
+    background-color: #1E1E1E;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.see-all {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.centered-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.9em;
+}
+
+.project-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.project-element .thumbnail {
+    border-radius: 16px;
+    background-color: #F4EEE0;
+    width: 18.4em;
+    height: 18.4em;
+    overflow: hidden;
+
+}
+
+.project-element span {
+    color: #FFF;
+    font-family: Inria Sans;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.project-element .thumbnail img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.shrink-image {
+    scale: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
